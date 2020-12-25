@@ -1,24 +1,24 @@
 import React, { Component } from "react";
-import image from "../images/photo.jpg";
+import Frontend from "./frontend";
+import Backend from "./backend";
+import Devops from "./devops";
 
-const style = {
-  width: "40%",
-  height: "700px",
-  background: "white",
-  // borderRadius:"30px",
-  // boxShadow: "-1px 9px 30px -4px rgba(155,155,155,0.44)"
-};
-
-const imagestyle={
-  
-  height: "800px",
+const style={
+  clear:"both",
+  marginLeft:"5%",
 }
+
 
 class Skill extends Component {
   render() {
     return (
       <div style={style}>
-        <img src={image} style={imagestyle}></img>
+        <br></br><br></br>
+        <h1>스킬</h1>
+        <Frontend></Frontend>
+        <Backend></Backend>
+        <Devops></Devops>
+        
       </div>
     );
   }

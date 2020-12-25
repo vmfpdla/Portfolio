@@ -7,7 +7,7 @@ import email from "../images/mail.png";
 class BusinessCard extends Component {
   render() {
     return (
-      <div class="businessCard">
+      <div id="square" class="flipInX animated businessCard">
         <div>
           <div class="intro">
             <h2>YanZ</h2>

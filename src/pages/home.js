@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Profile from "../components/profile";
-import Skill from "../components/skill";
+import Homephoto from "../components/homephoto";
 
 
 const style={
@@ -16,7 +16,7 @@ class home extends Component {
     return (
         <div style={style}>
             <Profile></Profile>
-            <Skill></Skill>
+            <Homephoto></Homephoto>
         </div>
     );
   }
