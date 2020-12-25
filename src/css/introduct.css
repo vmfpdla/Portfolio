@@ -1,0 +1,71 @@
+/* 말풍선 */
+.balloon1,
+.balloon2,
+.balloon3 {
+  position: relative;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  background: #333333;
+  border-radius: 10px;
+}
+/* 크기만 다르게 하기위해서 따로지정 */
+.balloon1 {
+  margin-top: 50px;
+  width: 750px;
+  height: 60px;
+}
+.balloon2 {
+  width: 600px;
+  height: 90px;
+}
+.balloon3 {
+  width: 550px;
+  height: 60px;
+}
+
+/* 말풍선 안에 글씨  */
+.balloon1,
+.balloon2,
+.balloon3 > p {
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.balloon3 > p {
+  padding-top: 20px;
+}
+
+/* 화살표 CSS */
+.balloon1:after {
+  border-top: 15px solid #333333;
+  border-left: 15px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+}
+
+.balloon2:after {
+  border-top: 15px solid #333333;
+  border-left: 15px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+}
+
+.balloon3:after {
+  border-top: 15px solid #333333;
+  border-left: 15px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+}

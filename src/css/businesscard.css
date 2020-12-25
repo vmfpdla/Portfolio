@@ -1,0 +1,32 @@
+.businessCard {
+  width: 700px;
+  height: 400px;
+  margin: 50px;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 11px 16px 1px rgba(91, 91, 91, 0.83);
+}
+
+.businessCard > div {
+  float: left;
+}
+.photo > img {
+  width: 130px;
+  height: 130px;
+  padding-left: 50px;
+}
+.businessCard .emoji {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+.intro {
+  width: 400px;
+  padding-left: 50px;
+  padding-top: 5%;
+}
+.photo {
+  padding-top: 5%;
+}
