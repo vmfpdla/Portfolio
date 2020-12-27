@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Introduct from '../components/introduct';
-import Skill from '../components/skill';
+import Skills from '../components/skills';
 
 class intro extends Component {
 
@@ -8,7 +8,7 @@ class intro extends Component {
     return (
         <div>
           <Introduct></Introduct>
-          <Skill></Skill>
+          <Skills></Skills>
         </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "../css/introduct.css";
-
+import "../css/balloon.css";
+import "../css/skill.css";
 import BusinessCard from "../components/businesscard";
 
 const style = {
