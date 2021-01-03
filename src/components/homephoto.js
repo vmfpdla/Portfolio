@@ -10,7 +10,7 @@ const style = {
 };
 
 const imagestyle={
-  
+  width:"1000px",
   height: "800px",
 }
 
